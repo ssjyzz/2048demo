@@ -1,0 +1,48 @@
+*{margin:0;padding:0;}
+/* 游戏头部样式 */
+#head div{
+	margin:10px auto;
+	text-align:center;
+	font-size:26px;
+}
+#head #title{
+	font:bold 40px Arial;
+}
+#head span{
+	font-size:26px;
+}
+#head #newGame{
+	font-size:20px;
+}
+#head a{
+	padding:10px;
+	background:#8f7a66;
+	color:#fff;
+	border-radius:10px;
+	text-decoration:none;
+	font-size:16px;
+}
+/* 游戏主体样式 */
+#container{
+	width:460px;
+	height:460px;
+	padding:20px;
+	background:#bbada0;
+	margin:0 auto;
+	border-radius:10px;
+	position:relative;
+}
+#container .g-c{
+	width: 100px;
+	height: 100px;
+	background:#ccc0b3;
+	border-radius:6px;
+	position:absolute;
+}
+#container .num-cell{
+	border-radius: 6px;
+	position: absolute;
+	font: bold 50px Arial;
+	text-align: center;
+	line-height: 100px;
+}
